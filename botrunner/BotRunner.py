@@ -33,11 +33,11 @@ app = Flask(__name__)
 viber = Api(BotConfiguration(
     name='KmBot',
     avatar='http://viber.com/avatar.jpg',
-    auth_token='47bcc3f5e867d0b6-fdfcaa277e7a2a95-e98ca8adc6516d78'
+    auth_token='Token'
 ))
 
 
-@app.route('/47bcc3f5e867d0b6-fdfcaa277e7a2a95-e98ca8adc6516d78', methods=['POST'])
+@app.route('/Token', methods=['POST'])
 def incoming():
     logger.debug("received request. post data: {0}".format(request.get_data()))
 
