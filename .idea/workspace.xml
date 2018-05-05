@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f2bd00-5b64-4aed-8aed-7813687317f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/botrunner/BotRunner.py" afterPath="$PROJECT_DIR$/botrunner/BotRunner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messageswitcher/default_keyboard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messageswitcher/message_commander.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weathermodule/weather_default_keyboard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weathermodule/weather_navigator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weathermodule/weather_navigator.uk.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/botrunner/BotRunner.py" afterPath="$PROJECT_DIR$/botrunner/bot_runner.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/botrunner/botrunner.en.json" afterPath="$PROJECT_DIR$/botrunner/bot_runner.en.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/botrunner/botrunner.uk.json" afterPath="$PROJECT_DIR$/botrunner/bot_runner.uk.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/messageswitcher/messageswitch.py" afterPath="$PROJECT_DIR$/messageswitcher/message_switch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/messageswitcher/messageswitch.uk.json" afterPath="$PROJECT_DIR$/messageswitcher/message_switch.uk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpbot.iml" afterPath="$PROJECT_DIR$/kpbot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kpbot.iws" />
@@ -67,17 +78,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="botrunner.uk.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/botrunner/botrunner.uk.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="botrunner.en.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/botrunner/botrunner.en.json">
+      <file leaf-file-name="bot_runner.en.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.en.json">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
@@ -85,19 +87,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messageswitch.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/messageswitcher/messageswitch.py">
+      <file leaf-file-name="message_switch.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1095">
+            <state line="27" column="63" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="690">
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_switch.uk.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.uk.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="16" selection-start="81" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BotRunner.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
+      <file leaf-file-name="default_keyboard.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messageswitcher/default_keyboard.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="53" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.37466308" vertical-offset="596" max-vertical-offset="1185">
+            <state line="8" column="39" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_commander.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messageswitcher/message_commander.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="600">
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather_navigator.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="49" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="540">
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather_default_keyboard.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="57" selection-start="563" selection-end="563" vertical-scroll-proportion="0.6571429" vertical-offset="10" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather_navigator.uk.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.uk.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="1" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bot_runner.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="78" selection-start="1508" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1185">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -133,6 +195,15 @@
         <option value="$PROJECT_DIR$/botrunner/botrunner.en.json" />
         <option value="$PROJECT_DIR$/botrunner/botrunner.uk.json" />
         <option value="$PROJECT_DIR$/botrunner/BotRunner.py" />
+        <option value="$PROJECT_DIR$/messageswitcher/messageswitch.py" />
+        <option value="$PROJECT_DIR$/botrunner/bot_runner.py" />
+        <option value="$PROJECT_DIR$/messageswitcher/default_keyboard.json" />
+        <option value="$PROJECT_DIR$/messageswitcher/message_switch.uk.json" />
+        <option value="$PROJECT_DIR$/messageswitcher/message_commander.py" />
+        <option value="$PROJECT_DIR$/weathermodule/weather_navigator.uk.json" />
+        <option value="$PROJECT_DIR$/weathermodule/weather_navigator.py" />
+        <option value="$PROJECT_DIR$/messageswitcher/message_switch.py" />
+        <option value="$PROJECT_DIR$/weathermodule/weather_default_keyboard.json" />
       </list>
     </option>
   </component>
@@ -197,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="messageswitcher" />
+              <option name="myItemId" value="weathermodule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,7 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="botrunner" />
+              <option name="myItemId" value="messageswitcher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,6 +310,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -247,6 +319,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weathermodule" />
+      <recent name="$PROJECT_DIR$/messageswitcher" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/botrunner" />
     </key>
@@ -515,7 +589,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kpbot" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/botrunner/BotRunner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/botrunner/bot_runner.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -563,14 +637,18 @@
       <created>1525537851512</created>
       <updated>1525537851513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;botrunner/BotRunner.py&#10;">
+      <created>1525537881053</created>
+      <updated>1525537881053</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="27" width="1378" height="748" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -580,10 +658,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.539629" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,7 +671,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -612,7 +690,8 @@
     </option>
     <MESSAGE value="made structure&#10;" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;botrunner/BotRunner.py&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;botrunner/BotRunner.py&#10;" />
+    <MESSAGE value="added weather mvp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added weather mvp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -620,28 +699,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/botrunner/botrunner.uk.json">
+    <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.uk.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/botrunner/botrunner.en.json">
+    <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.en.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messageswitcher/messageswitch.py">
+    <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1095">
-          <folding />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
+    <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1185">
           <folding>
@@ -657,7 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/botrunner/botrunner.uk.json">
+    <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.uk.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
           <folding />
@@ -683,23 +764,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/botrunner/botrunner.en.json">
+    <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.en.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messageswitcher/messageswitch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/botrunner/botrunner.uk.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
@@ -711,12 +778,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
+    <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.uk.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="53" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.37466308" vertical-offset="596" max-vertical-offset="1185">
+        <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="78" selection-start="1508" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1185">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messageswitcher/default_keyboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.uk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="81" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.uk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="49" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="540">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messageswitcher/message_commander.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="600">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="63" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="690">
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="57" selection-start="563" selection-end="563" vertical-scroll-proportion="0.6571429" vertical-offset="10" max-vertical-offset="630">
+          <folding />
         </state>
       </provider>
     </entry>

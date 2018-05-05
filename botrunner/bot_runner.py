@@ -12,7 +12,7 @@ from viberbot.api.viber_requests import ViberMessageRequest
 from viberbot.api.viber_requests import ViberSubscribedRequest
 from viberbot.api.viber_requests import ViberUnsubscribedRequest
 
-from messageswitch import MessageSwitcher
+from message_switch import MessageSwitcher
 
 
 logger = logging.getLogger()
@@ -68,7 +68,7 @@ def main():
 
 
 def __get_res(message):
-    return 'botrunner.' + message
+    return 'bot_runner.' + message
 
 if __name__ == "__main__":
     main()

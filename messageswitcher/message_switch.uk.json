@@ -1,6 +1,6 @@
 {
   "uk": {
     "helloText": "Привіт %{userName}, чим можу бути корисним?",
-    "image-url": "https://k-p.net.ua/imag/kamenec/for_misto/podole56.gif"
+    "goBackTitle": "Ми повернулися!"
   }
 }
