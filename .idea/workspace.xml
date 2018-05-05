@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f2bd00-5b64-4aed-8aed-7813687317f8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/botrunner/BotRunner.py" afterPath="$PROJECT_DIR$/botrunner/BotRunner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kpbot.iws" />
@@ -96,7 +97,7 @@
       <file leaf-file-name="BotRunner.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="1.0965147" vertical-offset="596" max-vertical-offset="1185">
+            <state line="49" column="53" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.37466308" vertical-offset="596" max-vertical-offset="1185">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -558,16 +559,21 @@
       <created>1525537589608</created>
       <updated>1525537589608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;botrunner/BotRunner.py&#10;">
+      <created>1525537851512</created>
+      <updated>1525537851513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="27" width="1378" height="748" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -583,7 +589,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -606,7 +611,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="made structure&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="made structure&#10;" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;botrunner/BotRunner.py&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;botrunner/BotRunner.py&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -707,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="1.0965147" vertical-offset="596" max-vertical-offset="1185">
+        <state line="49" column="53" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.37466308" vertical-offset="596" max-vertical-offset="1185">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
