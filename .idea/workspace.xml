@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f2bd00-5b64-4aed-8aed-7813687317f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messageswitcher/messageswitch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messageswitcher/messageswitch.uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/botrunner/BotRunner.py" afterPath="$PROJECT_DIR$/botrunner/BotRunner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/botrunner/botrunner.en.json" afterPath="$PROJECT_DIR$/botrunner/botrunner.en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpbot.iml" afterPath="$PROJECT_DIR$/kpbot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kpbot.iws" />
@@ -76,7 +69,7 @@
       <file leaf-file-name="botrunner.uk.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/botrunner/botrunner.uk.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="150">
+            <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -85,7 +78,7 @@
       <file leaf-file-name="botrunner.en.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/botrunner/botrunner.en.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -94,10 +87,8 @@
       <file leaf-file-name="messageswitch.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messageswitcher/messageswitch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-              </folding>
+            <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1095">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +96,7 @@
       <file leaf-file-name="BotRunner.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="1.0404313" vertical-offset="619" max-vertical-offset="1185">
+            <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="1.0965147" vertical-offset="596" max-vertical-offset="1185">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -176,7 +167,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,7 +216,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,16 +554,20 @@
       <created>1524261027548</created>
       <updated>1524261027548</updated>
     </task>
+    <task id="LOCAL-00001" summary="made structure&#10;">
+      <created>1525537589608</created>
+      <updated>1525537589608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="27" width="1378" height="748" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -588,6 +583,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -625,6 +621,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/botrunner/botrunner.en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messageswitcher/messageswitch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1185">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/botrunner/token_file">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="50" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/botrunner/botrunner.uk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/botenv/lib/python3.4/site-packages/i18n/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="5" selection-start="209" selection-end="209" vertical-scroll-proportion="0.12096774" vertical-offset="135" max-vertical-offset="585">
@@ -654,15 +687,13 @@
     <entry file="file://$PROJECT_DIR$/messageswitcher/messageswitch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="1095">
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/botrunner/botrunner.uk.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="150">
+        <state line="2" column="25" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
@@ -676,7 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/botrunner/BotRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="1.0404313" vertical-offset="619" max-vertical-offset="1185">
+        <state line="67" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="1.0965147" vertical-offset="596" max-vertical-offset="1185">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
