@@ -2,6 +2,7 @@ import i18n
 import json
 import os
 from viberbot.api.messages import TextMessage
+from weather_connector import WeatherConnector
 
 __author__ = 'dream-admins'
 
@@ -18,6 +19,9 @@ class WeatherNavigator:
         __message_text = request.message.text
         if __message_text.endswith('nav'):
             self.__viber.send_messages(request.sender.id, [TextMessage(text=self.__get_res('forecastTitle'), keyboard=self.__get_keyboard())])
+        elif __message_text.endswith('now'):
+            connect = WeatherConnector()
+            self.__viber.send_messages(request.sender.id, [TextMessage(text=connect.init_connection("observations").to_string(), keyboard=self.__get_keyboard())])
 
     def __get_res(self, msg):
         return i18n.t('weather_navigator.' + msg)
