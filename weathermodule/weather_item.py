@@ -4,6 +4,7 @@ class WeatherItem:
     def __init__(self):
         self.__day_name = None
         self.__current_date = None
+        self.__current_time = None
         self.__sunrise = None
         self.__sunset = None
         self.__temperature = None
@@ -20,6 +21,12 @@ class WeatherItem:
 
     def set_current_date(self, current_date):
         self.__current_date = current_date
+
+    def get_current_time(self):
+        return self.__current_time
+
+    def set_current_time(self, current_time):
+        self.__current_time = current_time
 
     def get_sunrise(self):
         return self.__sunrise

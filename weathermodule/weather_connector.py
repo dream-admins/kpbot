@@ -18,9 +18,10 @@ class WeatherConnector:
         weather_item.set_day_name(observation_obj["dow"])
         weather_item.set_current_date(self.__get_formated_date(observation_obj['obs_time_local'], None))
 
-        date_format = '%H:%M'
-        weather_item.set_sunrise(self.__get_formated_date(observation_obj['sunrise'], date_format))
-        weather_item.set_sunset(self.__get_formated_date(observation_obj['sunset'], date_format))
+        time_format = '%H:%M'
+        weather_item.set_current_time(self.__get_formated_date(observation_obj['obs_time_local'], time_format))
+        weather_item.set_sunrise(self.__get_formated_date(observation_obj['sunrise'], time_format))
+        weather_item.set_sunset(self.__get_formated_date(observation_obj['sunset'], time_format))
         weather_item.set_icon_code(observation_obj['icon_code'])
 
         metric_obj = observation_obj['metric']
@@ -32,7 +33,7 @@ class WeatherConnector:
     def __get_formated_date(self, obs_time, date_format):
         current_time = datetime.datetime.strptime(obs_time, '%Y-%m-%dT%H:%M:%S%z')
         if date_format is None:
-            return current_time.strftime("%d/%m/%Y %H:%M")
+            return current_time.strftime("%d/%m/%Y")
         else:
             return current_time.strftime(date_format)
 
