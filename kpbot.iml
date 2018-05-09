@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/botrunner" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/messageswitcher" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/weathermodule" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weather_icons" type="java-resource" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.4.2 virtualenv at ~/botenv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
