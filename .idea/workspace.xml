@@ -2,56 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f2bd00-5b64-4aed-8aed-7813687317f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/00.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_icons/PNGs/na.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpbot.iml" afterPath="$PROJECT_DIR$/kpbot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/00.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/00.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/01.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/02.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/03.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/04.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/05.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/06.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/07.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/07.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/08.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/08.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/09.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/09.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/10.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/11.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/12.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/13.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/14.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/15.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/16.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/17.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/17.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/18.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/18.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/19.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/19.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/20.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/20.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/21.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/21.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/22.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/23.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/23.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/24.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/25.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/25.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/26.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/26.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/27.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/27.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/28.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/28.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/29.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/29.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/30.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/30.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/31.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/31.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/32.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/33.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/34.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/34.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/35.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/35.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/36.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/37.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/37.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/38.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/38.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/39.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/39.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/40.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/41.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/41.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/42.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/42.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/43.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/43.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/44.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/44.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/45.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/45.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/46.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/46.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/47.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/47.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather_icons/PNGs/na.png" afterPath="$PROJECT_DIR$/weather_icons/PNGs/na.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weathermodule/weather_navigator.py" afterPath="$PROJECT_DIR$/weathermodule/weather_navigator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kpbot.iws" />
@@ -119,11 +119,32 @@
       <file leaf-file-name="weather_navigator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="84" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1230">
+            <state line="50" column="55" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="563" max-vertical-offset="1380">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather_icons/PNGs/00.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weather_icons/PNGs/01.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather_icons/PNGs/02.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -154,10 +175,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weather_connector.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weathermodule/weather_connector.py">
+      <file leaf-file-name="message_switch.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="62" selection-start="1602" selection-end="1620" vertical-scroll-proportion="0.5967742" vertical-offset="333" max-vertical-offset="705">
+            <state line="27" column="47" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_commander.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messageswitcher/message_commander.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -253,6 +283,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kpbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weathermodule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -669,7 +713,11 @@
       <created>1525729249777</created>
       <updated>1525729249777</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added weather icons">
+      <created>1525871731161</created>
+      <updated>1525871731161</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -679,12 +727,13 @@
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32605043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32546374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.539629" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,7 +743,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -747,7 +795,8 @@
     <MESSAGE value="added weather connector&#10;" />
     <MESSAGE value="added sent rich text message" />
     <MESSAGE value="added weather icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="added weather icons" />
+    <MESSAGE value="change weather icons&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="change weather icons&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,27 +804,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="600">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_connector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="369" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="630" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weathermodule/weather_item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="81" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="900">
@@ -928,23 +956,6 @@
         <state line="3" column="16" selection-start="81" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messageswitcher/message_commander.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="369" selection-end="372" vertical-scroll-proportion="-4.6" vertical-offset="35" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/botrunner/token_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="372">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/botenv/lib/python3.4/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="338" column="8" selection-start="14977" selection-end="14977" vertical-scroll-proportion="0.33238637" vertical-offset="4578" max-vertical-offset="29760" />
@@ -967,11 +978,6 @@
         <state line="5" column="13" selection-start="188" selection-end="188" vertical-scroll-proportion="0.082417585" vertical-offset="0" max-vertical-offset="546">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="796" selection-end="796" vertical-scroll-proportion="0.73156345" vertical-offset="37" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/botrunner/bot_runner.py">
@@ -1042,20 +1048,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="640" selection-end="640" vertical-scroll-proportion="-9.4" vertical-offset="35" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_connector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="14" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messageswitcher/message_switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="47" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messageswitcher/message_commander.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/botrunner/token_file">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="50" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="84" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1230">
+        <state line="50" column="55" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="563" max-vertical-offset="1380">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_connector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="62" selection-start="1602" selection-end="1620" vertical-scroll-proportion="0.5967742" vertical-offset="333" max-vertical-offset="705">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/weather_icons/PNGs/00.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_icons/PNGs/02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_icons/PNGs/01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

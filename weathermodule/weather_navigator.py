@@ -27,21 +27,31 @@ class WeatherNavigator:
             weather_item = connect.init_connection("observations")
             SAMPLE_RICH_MEDIA = {
                   "Type": "rich_media",
-                  "BgColor": "#69C48A",
+                  "BgColor": "#FFFFFF",
                   "Buttons": [
                     {
                       "Columns": 6,
-                      "Rows": 3,
+                      "Rows": 2,
                       "ActionType": "none",
                       "ActionBody": "none",
-                      "TextVAlign": "middle",
+                      "TextVAlign": "top",
                       "TextHAlign": "center",
                       "Text": "<b>"+weather_item.get_day_name()+" - " + weather_item.get_current_date()
                               + "</b><br>Станом на: <b>"+weather_item.get_current_time()+"</b>"
                               + "<br><b>" + str(weather_item.get_temperature()) + " &#8451;</b>" ,
                       "TextOpacity": 100,
                       "TextSize": "regular"
+                    },
+                    {
+                        "Columns": 3,
+                        "Rows": 5,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "TextVAlign": "middle",
+                        "BgMedia": "https://raw.githubusercontent.com/dream-admins/kpbot/master/weather_icons/PNGs/"
+                                 + str(weather_item.get_icon_code()) + ".png"
                     }
+
                   ]
                 }
 
