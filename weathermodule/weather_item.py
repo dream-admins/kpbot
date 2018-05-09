@@ -9,6 +9,10 @@ class WeatherItem:
         self.__sunset = None
         self.__temperature = None
         self.__icon_code = None
+        self.__phrase = None
+        self.__feel_like = None
+        self.__wind_direction = None
+        self.__wind_speed = None
 
     def get_day_name(self):
         return self.__day_name
@@ -51,6 +55,30 @@ class WeatherItem:
 
     def set_icon_code(self, icon_code):
         self.__icon_code = icon_code
+
+    def get_phrase(self):
+        return self.__phrase
+
+    def set_phrase(self, phrase):
+        self.__phrase = phrase
+
+    def get_feel_like(self):
+        return self.__feel_like
+
+    def set_feel_like(self, fill_like):
+        self.__feel_like = fill_like
+
+    def get_wind_direction(self):
+        return self.__wind_direction
+
+    def set_wind_direction(self, wind_direction):
+        self.__wind_direction = wind_direction
+
+    def get_wind_speed(self):
+        return self.__wind_speed
+
+    def set_wind_speed(self, wind_speed):
+        self.__wind_speed = wind_speed
 
     def to_string(self):
         return "{0},{1},{2},{3},{4},{5}".format(self.__day_name, self.__current_date, self.__temperature, self.__icon_code,

@@ -22,43 +22,92 @@ class WeatherNavigator:
         if __message_text.endswith('nav'):
             self.__viber.send_messages(request.sender.id, [TextMessage(text=self.__get_res('forecastTitle'), keyboard=self.__get_keyboard())])
         elif __message_text.endswith('now'):
-            self.__viber.send_messages(request.sender.id, [TextMessage(text=connect.init_connection("observations").to_string(), keyboard=self.__get_keyboard())])
-        elif __message_text.endswith("tomorrow"):
             weather_item = connect.init_connection("observations")
             SAMPLE_RICH_MEDIA = {
-                  "Type": "rich_media",
-                  "BgColor": "#FFFFFF",
-                  "Buttons": [
+                "Type": "rich_media",
+                "BgColor": "#006699",
+                "Buttons": [
                     {
-                      "Columns": 6,
-                      "Rows": 2,
-                      "ActionType": "none",
-                      "ActionBody": "none",
-                      "TextVAlign": "top",
-                      "TextHAlign": "center",
-                      "Text": "<b>"+weather_item.get_day_name()+" - " + weather_item.get_current_date()
-                              + "</b><br>Станом на: <b>"+weather_item.get_current_time()+"</b>"
-                              + "<br><b>" + str(weather_item.get_temperature()) + " &#8451;</b>" ,
-                      "TextOpacity": 100,
-                      "TextSize": "regular"
+                        "Columns": 6,
+                        "Rows": 1,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "TextVAlign": "top",
+                        "TextHAlign": "center",
+                        "BgColor": "#006699",
+                        "Text": "<i><font color=\"#FFFFFF\"><b>"+weather_item.get_day_name()+" - " + weather_item.get_current_date() + "</b></font><i>",
+                        "TextOpacity": 100,
+                        "TextBgGradientColor": "#454545"
+                    },
+                    {
+                        "Columns": 6,
+                        "Rows": 1,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "TextOpacity": 100,
+                        "BgColor": "#006699",
+                        "Text": "<i><font color=\"#FFFFFF\">Станом на: <b>"+weather_item.get_current_time()+"</b></font></i>"
+                    },
+                    {
+                        "Columns": 1,
+                        "Rows": 2,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "TextOpacity": 0,
+                        "BgColor": "#006699",
+                        "Text": "tex"
+                    },
+                    {
+                        "Columns": 2,
+                        "Rows": 2,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "BgColor": "#006699",
+                        "Image": "https://raw.githubusercontent.com/dream-admins/kpbot/master/weather_icons/PNGs/"
+                                 + str(weather_item.get_icon_code()) + ".png"
                     },
                     {
                         "Columns": 3,
-                        "Rows": 5,
+                        "Rows": 2,
                         "ActionType": "none",
                         "ActionBody": "none",
-                        "TextVAlign": "middle",
-                        "BgMedia": "https://raw.githubusercontent.com/dream-admins/kpbot/master/weather_icons/PNGs/"
-                                 + str(weather_item.get_icon_code()) + ".png"
+                        "BgColor": "#006699",
+                        "Text": "<font color=\"#FFFFFF\" size=\"32\"><b>" + str(weather_item.get_temperature()) + " &#8451;</b></font>",
+                        "TextVAlign": "top",
+                        "TextHAlign": "left",
+                    },
+                    {
+                        "Columns": 6,
+                        "Rows": 1,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "BgColor": "#006699",
+                        "Text": "<font color=\"#FFFFFF\" size=\"16\"><b>" + weather_item.get_phrase() + "</b></font>",
+                        "TextVAlign": "top",
+                        "TextHAlign": "center",
+                     },
+                    {
+                        "Columns": 6,
+                        "Rows": 2,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "BgColor": "#006699",
+                        "Text": "<i><font color=\"#FFFFFF\">За відчуттям: <b>" + str(weather_item.get_feel_like()) + " &#8451;</b><br>Вітер: <b>"+
+                                            weather_item.get_wind_direction() + " " + str(weather_item.get_wind_speed()) +" км/год</b><br>"+
+                                            "Cхід: <b>" + weather_item.get_sunrise() + "</b>&emsp;&emsp;Захід: <b>" + weather_item.get_sunset() + "</b></font></i>",
+                        "TextVAlign": "bottom",
+                        "TextHAlign": "left",
+                        "TextBgGradientColor": "#454545"
                     }
 
-                  ]
-                }
 
-            SAMPLE_ALT_TEXT = "upgrade now!"
+                    ]
+            }
 
-            message = RichMediaMessage(rich_media=SAMPLE_RICH_MEDIA, alt_text=SAMPLE_ALT_TEXT, min_api_version=2.0)
+            message = RichMediaMessage(rich_media=SAMPLE_RICH_MEDIA, min_api_version=2.0, keyboard=self.__get_keyboard())
             self.__viber.send_messages(request.sender.id, [message])
+        elif __message_text.endswith("tomorrow"):
+            pass
 
     def __get_res(self, msg):
         return i18n.t('weather_navigator.' + msg)

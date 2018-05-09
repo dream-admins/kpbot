@@ -23,9 +23,13 @@ class WeatherConnector:
         weather_item.set_sunrise(self.__get_formated_date(observation_obj['sunrise'], time_format))
         weather_item.set_sunset(self.__get_formated_date(observation_obj['sunset'], time_format))
         weather_item.set_icon_code(observation_obj['icon_code'])
+        weather_item.set_phrase(observation_obj['phrase_32char'])
+        weather_item.set_wind_direction(observation_obj['wdir_cardinal'])
 
         metric_obj = observation_obj['metric']
         weather_item.set_temperature(metric_obj['temp'])
+        weather_item.set_feel_like(metric_obj['feels_like'])
+        weather_item.set_wind_speed(metric_obj['wspd'])
 
         weather_item.to_string()
         return  weather_item
