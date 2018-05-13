@@ -13,6 +13,7 @@ class WeatherItem:
         self.__feel_like = None
         self.__wind_direction = None
         self.__wind_speed = None
+        self.__weather_dict = {}
 
     def get_day_name(self):
         return self.__day_name
@@ -79,6 +80,20 @@ class WeatherItem:
 
     def set_wind_speed(self, wind_speed):
         self.__wind_speed = wind_speed
+
+    def get_dict(self):
+        self.__weather_dict['%day_date_name'] = self.__day_name+ " - " + self.__current_date
+        self.__weather_dict['%current_time'] = '' if self.__current_time is None else "Станом на: <b>"+self.__current_time+"</b>"
+        self.__weather_dict['%feel_like'] = str(self.__feel_like)
+        self.__weather_dict['%icon_code'] = str(self.__icon_code)
+        self.__weather_dict['%temp'] = str(self.__temperature)
+        self.__weather_dict['%phrase'] = self.__phrase
+        self.__weather_dict['%wind_direction'] = self.__wind_direction
+        self.__weather_dict['%wind_speed'] = str(self.__wind_speed)
+        self.__weather_dict['%sunrise'] = self.__sunrise
+        self.__weather_dict['%sunset'] = self.__sunset
+        return self.__weather_dict
+
 
     def to_string(self):
         return "{0},{1},{2},{3},{4},{5}".format(self.__day_name, self.__current_date, self.__temperature, self.__icon_code,

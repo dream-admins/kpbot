@@ -1,0 +1,75 @@
+{
+                    "Blocks": [
+                    {
+                        "Columns": 6,
+                        "Rows": 1,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "TextVAlign": "top",
+                        "TextHAlign": "center",
+                        "BgColor": "#006699",
+                        "Text": "<i><font color=\"#FFFFFF\"><b>%day_date_name</b></font><i>",
+                        "TextOpacity": 100,
+                        "TextBgGradientColor": "#454545"
+                    },
+                    {
+                        "Columns": 6,
+                        "Rows": 1,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "TextOpacity": 100,
+                        "BgColor": "#006699",
+                        "TextOpacity": 100,
+                        "Text": "<i><font color=\"#FFFFFF\">%current_time</font></i>"
+                    },
+                    {
+                        "Columns": 1,
+                        "Rows": 2,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "TextOpacity": 0,
+                        "BgColor": "#006699",
+                        "Text": "tex"
+                    },
+                    {
+                        "Columns": 2,
+                        "Rows": 2,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "BgColor": "#006699",
+                        "Image": "https://raw.githubusercontent.com/dream-admins/kpbot/master/weather_icons/PNGs/%icon_code.png"
+                    },
+                    {
+                        "Columns": 3,
+                        "Rows": 2,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "BgColor": "#006699",
+                        "Text": "<font color=\"#FFFFFF\" size=\"32\"><b>%temp &#8451;</b></font>",
+                        "TextVAlign": "top",
+                        "TextHAlign": "left"
+                    },
+                    {
+                        "Columns": 6,
+                        "Rows": 1,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "BgColor": "#006699",
+                        "Text": "<font color=\"#FFFFFF\" size=\"16\"><b>%phrase</b></font>",
+                        "TextVAlign": "top",
+                        "TextHAlign": "center"
+                     },
+                    {
+                        "Columns": 6,
+                        "Rows": 2,
+                        "ActionType": "none",
+                        "ActionBody": "none",
+                        "BgColor": "#006699",
+                        "Text": "<i><font color=\"#FFFFFF\">За відчуттям: <b>%feel_like &#8451;</b><br>Вітер: <b>%wind_direction %wind_speed км/год</b><br>Cхід: <b>%sunrise</b>&emsp;&emsp;Захід: <b>%sunset</b></font></i>",
+                        "TextVAlign": "bottom",
+                        "TextHAlign": "left",
+                        "TextBgGradientColor": "#454545"
+                    }
+                    ]
+}
+
