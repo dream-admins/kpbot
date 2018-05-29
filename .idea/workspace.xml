@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f2bd00-5b64-4aed-8aed-7813687317f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weathermodule/weather_message_blocks.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messageswitcher/default_keyboard.json" afterPath="$PROJECT_DIR$/messageswitcher/default_keyboard.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weathermodule/weather_connector.py" afterPath="$PROJECT_DIR$/weathermodule/weather_connector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weathermodule/weather_item.py" afterPath="$PROJECT_DIR$/weathermodule/weather_item.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weathermodule/weather_default_keyboard.json" afterPath="$PROJECT_DIR$/weathermodule/weather_default_keyboard.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weathermodule/weather_navigator.py" afterPath="$PROJECT_DIR$/weathermodule/weather_navigator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -70,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="weather_navigator.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="weather_navigator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="981" selection-end="981" vertical-scroll-proportion="0.7" vertical-offset="100" max-vertical-offset="960">
+            <state line="53" column="23" selection-start="2186" selection-end="2207" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -82,10 +82,8 @@
       <file leaf-file-name="weather_connector.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weathermodule/weather_connector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="109" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.625" vertical-offset="485" max-vertical-offset="1320">
-              <folding>
-                <element signature="e#29#43#0" expanded="true" />
-              </folding>
+            <state line="26" column="52" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1335">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,7 +91,7 @@
       <file leaf-file-name="weather_message_blocks.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weathermodule/weather_message_blocks.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="73" selection-start="972" selection-end="972" vertical-scroll-proportion="-6.0" vertical-offset="180" max-vertical-offset="1215">
+            <state line="47" column="68" selection-start="2019" selection-end="2030" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -102,7 +100,7 @@
       <file leaf-file-name="weather_item.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weathermodule/weather_item.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="27" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.0" vertical-offset="1106" max-vertical-offset="1650">
+            <state line="88" column="27" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.0" vertical-offset="1297" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
@@ -144,10 +142,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="weather_default_keyboard.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="810">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default_keyboard.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messageswitcher/default_keyboard.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
+            <state line="5" column="64" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -178,13 +185,13 @@
         <option value="$PROJECT_DIR$/messageswitcher/message_commander.py" />
         <option value="$PROJECT_DIR$/weathermodule/weather_navigator.uk.json" />
         <option value="$PROJECT_DIR$/messageswitcher/message_switch.py" />
-        <option value="$PROJECT_DIR$/weathermodule/weather_default_keyboard.json" />
-        <option value="$PROJECT_DIR$/messageswitcher/default_keyboard.json" />
         <option value="$PROJECT_DIR$/weathermodule/weather_message.json" />
         <option value="$PROJECT_DIR$/weathermodule/weather_message_blocks.json" />
-        <option value="$PROJECT_DIR$/weathermodule/weather_connector.py" />
         <option value="$PROJECT_DIR$/weathermodule/weather_item.py" />
+        <option value="$PROJECT_DIR$/messageswitcher/default_keyboard.json" />
+        <option value="$PROJECT_DIR$/weathermodule/weather_connector.py" />
         <option value="$PROJECT_DIR$/weathermodule/weather_navigator.py" />
+        <option value="$PROJECT_DIR$/weathermodule/weather_default_keyboard.json" />
       </list>
     </option>
   </component>
@@ -220,8 +227,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,6 +303,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -674,14 +681,18 @@
       <created>1525888607479</created>
       <updated>1525888607479</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added forecast tomorrow">
+      <created>1526243926084</created>
+      <updated>1526243926084</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="27" width="1378" height="748" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32546374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -689,12 +700,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32546374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48235294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.539629" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32605043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -704,6 +714,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32605043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -754,7 +765,9 @@
     <MESSAGE value="added weather icons" />
     <MESSAGE value="change weather icons&#10;" />
     <MESSAGE value="added send weather format message" />
-    <option name="LAST_COMMIT_MESSAGE" value="added send weather format message" />
+    <MESSAGE value="added forecast tomorrow" />
+    <MESSAGE value="added weather more days&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added weather more days&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,11 +897,6 @@
         <state line="70" column="46" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.80748665" vertical-offset="628" max-vertical-offset="1395" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="640" selection-end="640" vertical-scroll-proportion="-9.4" vertical-offset="35" max-vertical-offset="630" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather_icons/PNGs/02.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1005,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messageswitcher/default_keyboard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/botrunner/token_file">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="50" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="372">
@@ -1019,9 +1020,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_message_blocks.json">
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_connector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="73" selection-start="972" selection-end="972" vertical-scroll-proportion="-6.0" vertical-offset="180" max-vertical-offset="1215">
+        <state line="26" column="52" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
@@ -1033,18 +1034,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_connector.py">
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="109" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.625" vertical-offset="485" max-vertical-offset="1320">
-          <folding>
-            <element signature="e#29#43#0" expanded="true" />
-          </folding>
+        <state line="53" column="23" selection-start="2186" selection-end="2207" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1005">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weathermodule/weather_navigator.py">
+    <entry file="file://$PROJECT_DIR$/messageswitcher/default_keyboard.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="981" selection-end="981" vertical-scroll-proportion="0.7" vertical-offset="100" max-vertical-offset="960">
+        <state line="5" column="64" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_message_blocks.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="68" selection-start="2019" selection-end="2030" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weathermodule/weather_default_keyboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="810">
           <folding />
         </state>
       </provider>

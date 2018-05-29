@@ -11,6 +11,7 @@ class WeatherNavigator:
         self.__viber = viber
         self.__current_path = os.path.dirname(__file__)
         self.__tomorrow_day_index = 2
+        self.__5_days_index = 6
 
         i18n.load_path.append(self.__current_path)
         i18n.set('file_format', 'json')
@@ -28,6 +29,8 @@ class WeatherNavigator:
 
         elif __message_text.endswith("tomorrow"):
             self.__send_rich_message(connector.get_forecats(self.__tomorrow_day_index), request)
+        elif __message_text.endswith("5_days"):
+            self.__send_rich_message(connector.get_forecats(self.__5_days_index), request)
 
     def __get_res(self, msg):
         return i18n.t('weather_navigator.' + msg)

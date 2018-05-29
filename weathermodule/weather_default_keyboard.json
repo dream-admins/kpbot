@@ -1,37 +1,49 @@
 {
     "Type": "keyboard",
+    "BgColor": "#999999",
     "Buttons": [{
                 "Columns": 2,
                 "Rows": 2,
-                "Text": "<font color=\"#494E67\"><br>Зараз</font><br>",
+                "Text": "<font color=\"#771100\" size=\"18\"><br><b>Зараз<b></font>",
                 "TextSize": "medium",
                 "TextHAlign": "center",
-                "TextVAlign": "bottom",
+                "TextVAlign": "middle",
                 "ActionType": "reply",
                 "ActionBody": "weather_now",
-                "BgColor": "#f7bb3f"
+                "BgColor": "#CCCCCC"
                 },
                 {
                 "Columns": 2,
                 "Rows": 2,
-                "Text": "<font color=\"#494E67\"><br>Завтра</font><br>",
+                "Text": "<font color=\"#771100\" size=\"18\"><br><b>Завтра</b></font>",
                 "TextSize": "medium",
                 "TextHAlign": "center",
-                "TextVAlign": "bottom",
+                "TextVAlign": "middle",
                 "ActionType": "reply",
                 "ActionBody": "weather_tomorrow",
-                "BgColor": "#f7bb3f"
+                "BgColor": "#CCCCCC"
                 },
                 {
                 "Columns": 2,
                 "Rows": 2,
-                "Text": "<font color=\"#494E67\"><br>Головне меню</font><br>",
+                "Text": "<font color=\"#771100\" size=\"18\"><br><b>5 днів</b></font>",
                 "TextSize": "medium",
                 "TextHAlign": "center",
-                "TextVAlign": "bottom",
+                "TextVAlign": "middle",
+                "ActionType": "reply",
+                "ActionBody": "weather_5_days",
+                "BgColor": "#CCCCCC"
+                },
+                {
+                "Columns": 6,
+                "Rows": 2,
+                "Text": "<font color=\"#771100\" size=\"18\"><br><b>Головне меню</b></font>",
+                "TextSize": "medium",
+                "TextHAlign": "center",
+                "TextVAlign": "middle",
                 "ActionType": "reply",
                 "ActionBody": "go_back",
-                "BgColor": "#f7bb3f"
+                "BgColor": "#CCCCCC"
                 }
                 ]
 }

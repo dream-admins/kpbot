@@ -25,6 +25,7 @@ class WeatherConnector:
     def __make_weather_more_item(self, jsonObj, dayIndex):
         weather_list = []
         daily_forecast = jsonObj['vt1dailyforecast']
+
         for index in range(1, dayIndex):
             weather_item = WeatherItem()
             weather_item.set_day_name(daily_forecast['dayOfWeek'][index])
