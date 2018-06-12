@@ -1,4 +1,3 @@
-# coding=utf-8
 __author__ = 'dream-admins'
 
 
@@ -87,7 +86,7 @@ class WeatherItem:
         self.__weather_dict['%day_date_name'] = self.__day_name+ " - " + self.__current_date
         self.__weather_dict['%current_time'] = '' if self.__current_time is None else "Станом на: <b>"+self.__current_time+"</b>"
         self.__weather_dict['%feel_like'] = str(self.__feel_like)
-        self.__weather_dict['%icon_code'] = str(self.__icon_code)
+        self.__weather_dict['%icon_code'] = str(self.__icon_code).zfill(2)
         self.__weather_dict['%temp'] = str(self.__temperature)
         self.__weather_dict['%phrase'] = self.__phrase
         self.__weather_dict['%wind_direction'] = self.__wind_direction
