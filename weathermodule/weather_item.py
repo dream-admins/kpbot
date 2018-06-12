@@ -1,6 +1,7 @@
 # coding=utf-8
 __author__ = 'dream-admins'
 
+
 class WeatherItem:
     def __init__(self):
         self.__day_name = None
