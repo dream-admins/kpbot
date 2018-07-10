@@ -1,0 +1,16 @@
+{
+  "Blocks": [
+    {
+      "Columns": 6,
+      "Rows": 7,
+      "ActionType": "reply",
+      "ActionBody": "text",
+      "BgColor": "#5F9EA0",
+      "TextOpacity": 0,
+      "BgMedia": "%image_url",
+      "BgMediaScaleType": "fit",
+      "TextBgGradientColor": "#454545",
+      "Text" : "%name"
+    }
+  ]
+}

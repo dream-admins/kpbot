@@ -11,5 +11,16 @@
                 "ActionBody": "weather_nav",
                 "Image": "https://lh3.googleusercontent.com/N5fvMCn_2mGgrfGOyOLxB_rxYJbut4AgdYygC4ZJphh3gepckm0orFJvLqVvueeR5vilWXc56mFJ23lty0_PQkrNDJblNuzwD-_fTHHunWC2bE85ZgdPcpTYMxnwibwjnI6XP9_341g1x7riAym4LoXQ9NoNqgbAS43_RY6j6sTSh8OhJUOdEXkQq59nimxFP_R1huttAAJ3VEsih0RDlg8tXW-PPCN5TI4YhZS6Xym4-mkfFcTIaQugaOnWjAqpWL532Zis-Xs4i1NR6qGhCbdNeZhFSWdiTYilw_CvZ6dBs-rwjpLOrYjXygFWxRlu5gUb6JwkXKGHt3slHTWBI8fWk1C7PfI5EKsiRqu8Erzil1u6C2DTNCRZRp4HT1DNlqSiGtzz6xaLO9Sjd3-TBZdlh-l85l3277ri8YLRCJyCstyMnn6XE1sJmDAyAWQGs6DD90QNnqrpcFwWxGfIdCoJzIQpcx7OF1pNGe0lmENcjQ-dFIXL6v7xXHm4TcYLSGRoSo0cEb_z8pw9YfD_QxYOI4RYbYFMxwJ1LnYprCV1KOD6MJB3o-r1tvDuPBFx=w1920-h553",
                 "BgColor": "#f7bb3f"
+                },
+                {
+                  "Columns": 2,
+                  "Rows": 2,
+                  "Text": "<font color=\"#494E67\"><br><b>Афіша<b></font><br>",
+                  "TextSize": "medium",
+                  "TextHAlign": "center",
+                  "TextVAlign": "bottom",
+                  "ActionType": "reply",
+                  "ActionBody": "film_nav",
+                  "BgColor": "#f7bb3f"
                 }]
 }
