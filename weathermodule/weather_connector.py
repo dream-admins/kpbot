@@ -9,24 +9,44 @@ from weather_item import WeatherItem
 class WeatherConnector:
     def __init__(self):
         self.__time_format = '%H:%M'
+        self.__observ_url = "https://api.weather.com/v1/geocode/48.693344/26.557896/observations/" \
+                            "current.json?apiKey=6532d6454b8aa370768e63d6ba5a832e&language=uk&units=m"
+        self.__forecast_url = "https://api.weather.com/v2/turbo/vt1dailyforecast?apiKey=d522aa97197fd864d36b418f39ebb323&" \
+                              "format=json&geocode=48.68%2C26.59&language=uk-UA&units=m"
+        self.__start_day_index = 1
 
     def get_observation(self):
-        observ_url = "https://api.weather.com/v1/geocode/48.693344/26.557896/observations/" \
-                     "current.json?apiKey=6532d6454b8aa370768e63d6ba5a832e&language=uk&units=m"
-        jsObj = json.loads(self.__get_weather_resp(observ_url).data.decode('utf-8'))
-        return self.__make_weather_one_item(jsObj)
 
-    def get_forecats(self, dayIndex):
-        forecast_url = "https://api.weather.com/v2/turbo/vt1dailyforecast?apiKey=d522aa97197fd864d36b418f39ebb323&" \
-                       "format=json&geocode=48.68%2C26.59&language=uk-UA&units=m"
-        jsObj = json.loads(self.__get_weather_resp(forecast_url).data.decode('utf-8'))
-        return self.__make_weather_more_item(jsObj, dayIndex)
+        jsObj = json.loads(self.__get_weather_resp(self.__observ_url).data.decode('utf-8'))
+        return self.__make_observation_weather_item(jsObj)
+
+    def get_weekend_weather(self):
+        jsObj = json.loads(self.__get_weather_resp(self.__forecast_url).data.decode('utf-8'))
+        allDays = jsObj['vt1dailyforecast']['validDate']
+
+        start_range = 1
+        end_range = 7
+
+        saturday_index = 5
+        sunday_index = 0
+
+        start_index = self.__get_day_index(start_range, end_range, allDays, saturday_index)
+        end_index = self.__get_day_index(start_range, end_range, allDays, sunday_index)
+
+        return self.__make_weather_more_item(jsObj, start_index, end_index)
+
+
+
+    def get_forecats(self, end_day_Index):
+
+        jsObj = json.loads(self.__get_weather_resp(self.__forecast_url).data.decode('utf-8'))
+        return self.__make_weather_more_item(jsObj, self.__start_day_index, end_day_Index)
     
-    def __make_weather_more_item(self, jsonObj, dayIndex):
+    def __make_weather_more_item(self, jsonObj, start_day_index, endDayIndex):
         weather_list = []
         daily_forecast = jsonObj['vt1dailyforecast']
 
-        for index in range(1, dayIndex):
+        for index in range(start_day_index, endDayIndex):
             weather_item = WeatherItem()
             weather_item.set_day_name(daily_forecast['dayOfWeek'][index])
             weather_item.set_current_date(self.__get_formated_date(daily_forecast['validDate'][index], None))
@@ -44,8 +64,7 @@ class WeatherConnector:
         return weather_list
 
 
-
-    def __make_weather_one_item(self, jsonObj):
+    def __make_observation_weather_item(self, jsonObj):
         weather_list = []
         weather_item = WeatherItem()
         observation_obj = jsonObj['observation']
@@ -81,3 +100,12 @@ class WeatherConnector:
         resp = http.request("GET", url)
         return resp
 
+    def __get_day_index(self, start_range, end_range, allDays, condition_index):
+        for index in range(start_range, end_range):
+            date_time = self.__get_formated_date(allDays[index], None)
+            week_day = datetime.datetime.strptime(date_time, '%d/%m/%Y').weekday()
+
+            if week_day == condition_index:
+                return index
+
+        return None

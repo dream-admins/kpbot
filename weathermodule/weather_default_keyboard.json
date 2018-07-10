@@ -1,49 +1,61 @@
 {
-    "Type": "keyboard",
-    "BgColor": "#999999",
-    "Buttons": [{
-                "Columns": 2,
-                "Rows": 2,
-                "Text": "<font color=\"#771100\" size=\"18\"><br><b>Зараз<b></font>",
-                "TextSize": "medium",
-                "TextHAlign": "center",
-                "TextVAlign": "middle",
-                "ActionType": "reply",
-                "ActionBody": "weather_now",
-                "BgColor": "#CCCCCC"
-                },
-                {
-                "Columns": 2,
-                "Rows": 2,
-                "Text": "<font color=\"#771100\" size=\"18\"><br><b>Завтра</b></font>",
-                "TextSize": "medium",
-                "TextHAlign": "center",
-                "TextVAlign": "middle",
-                "ActionType": "reply",
-                "ActionBody": "weather_tomorrow",
-                "BgColor": "#CCCCCC"
-                },
-                {
-                "Columns": 2,
-                "Rows": 2,
-                "Text": "<font color=\"#771100\" size=\"18\"><br><b>5 днів</b></font>",
-                "TextSize": "medium",
-                "TextHAlign": "center",
-                "TextVAlign": "middle",
-                "ActionType": "reply",
-                "ActionBody": "weather_5_days",
-                "BgColor": "#CCCCCC"
-                },
-                {
-                "Columns": 6,
-                "Rows": 2,
-                "Text": "<font color=\"#771100\" size=\"18\"><br><b>Головне меню</b></font>",
-                "TextSize": "medium",
-                "TextHAlign": "center",
-                "TextVAlign": "middle",
-                "ActionType": "reply",
-                "ActionBody": "go_back",
-                "BgColor": "#CCCCCC"
-                }
-                ]
+  "Type": "keyboard",
+  "BgColor": "#999999",
+  "Buttons": [
+    {
+      "Columns": 2,
+      "Rows": 2,
+      "Text": "<font color=\"#771100\" size=\"18\"><br><b>Зараз<b></font>",
+      "TextSize": "medium",
+      "TextHAlign": "center",
+      "TextVAlign": "middle",
+      "ActionType": "reply",
+      "ActionBody": "weather_now",
+      "BgColor": "#FFFFFF"
+    },
+    {
+      "Columns": 2,
+      "Rows": 2,
+      "Text": "<font color=\"#771100\" size=\"18\"><br><b>Завтра</b></font>",
+      "TextSize": "medium",
+      "TextHAlign": "center",
+      "TextVAlign": "middle",
+      "ActionType": "reply",
+      "ActionBody": "weather_tomorrow",
+      "BgColor": "#FFFFFF"
+    },
+    {
+      "Columns": 2,
+      "Rows": 2,
+      "Text": "<font color=\"#771100\" size=\"18\"><br><b>5 днів</b></font>",
+      "TextSize": "medium",
+      "TextHAlign": "center",
+      "TextVAlign": "middle",
+      "ActionType": "reply",
+      "ActionBody": "weather_5_days",
+      "BgColor": "#FFFFFF"
+    },
+    {
+      "Columns": 6,
+      "Rows": 2,
+      "Text": "<font color=\"#771100\" size=\"18\"><br><b>Вихідні</b></font>",
+      "TextSize": "medium",
+      "TextHAlign": "center",
+      "TextVAlign": "middle",
+      "ActionType": "reply",
+      "ActionBody": "weather_weekend",
+      "BgColor": "#FFFFFF"
+    },
+    {
+      "Columns": 6,
+      "Rows": 2,
+      "Text": "<font color=\"#771100\" size=\"18\"><br><b>Головне меню</b></font>",
+      "TextSize": "medium",
+      "TextHAlign": "center",
+      "TextVAlign": "middle",
+      "ActionType": "reply",
+      "ActionBody": "go_back",
+      "BgColor": "#FFFFFF"
+    }
+  ]
 }

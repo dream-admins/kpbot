@@ -19,7 +19,6 @@
                         "ActionBody": "none",
                         "TextOpacity": 100,
                         "BgColor": "#006699",
-                        "TextOpacity": 100,
                         "Text": "<i><font color=\"#FFFFFF\">%current_time</font></i>"
                     },
                     {
@@ -55,7 +54,7 @@
                         "ActionType": "none",
                         "ActionBody": "none",
                         "BgColor": "#006699",
-                        "Text": "<font color=\"#FFFFFF\" size=\"16\"><b>%phrase</b></font>",
+                        "Text": "<font color=\"#FFFFFF\" size=\"14\"><b>%phrase</b></font>",
                         "TextVAlign": "top",
                         "TextHAlign": "center"
                      },

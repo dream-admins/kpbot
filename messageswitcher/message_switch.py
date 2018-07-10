@@ -25,16 +25,10 @@ class MessageSwitcher:
     def disassembleReq(self, req):
         if isinstance (req, ViberConversationStartedRequest):
             self.__viber.send_messages(req.user.id,
-                                       [TextMessage(text=i18n.t(self.__get_res('helloText'), userName=req.user.name), keyboard=self.__get_keyboard())])
+                                       [TextMessage(text=i18n.t(self.__get_res('helloText'), userName=req.user.name), keyboard=self.__msg_commander.get_keyboard())])
         elif isinstance(req, ViberMessageRequest):
             self.__msg_commander.define_command(req)
-
-
-
 
     def __get_res(self, msg):
         return 'message_switch.' + msg
 
-    def __get_keyboard(self):
-        with open(self.__current_path + '/default_keyboard.json') as f:
-            return json.load(f)

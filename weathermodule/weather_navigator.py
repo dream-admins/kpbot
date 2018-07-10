@@ -29,6 +29,8 @@ class WeatherNavigator:
 
         elif __message_text.endswith("tomorrow"):
             self.__send_rich_message(connector.get_forecats(self.__tomorrow_day_index), request)
+        elif __message_text.endswith("weekend"):
+            self.__send_rich_message(connector.get_weekend_weather(), request)
         elif __message_text.endswith("5_days"):
             self.__send_rich_message(connector.get_forecats(self.__5_days_index), request)
 
